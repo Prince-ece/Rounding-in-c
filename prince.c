@@ -4,12 +4,8 @@ int main() {
     printf("Enter the number to roundoff: ");
     scanf("%f", &a);
     int b = (int)a;
-    if (a-b > 0.5){
+    if (a-b >= 0.5){
       printf("%d", b+1);
-    }
-    else if (a-b == 0.5)
-    {
-       printf("%f", a);
     }
     else {
         printf("%d", b);
